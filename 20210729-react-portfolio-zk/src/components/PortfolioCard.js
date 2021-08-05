@@ -2,50 +2,56 @@ import React, { Component } from "react";
 import styled, { css } from "styled-components";
 import EntypoIcon from "react-native-vector-icons/dist/Entypo";
 import MaterialCommunityIconsIcon from "react-native-vector-icons/dist/MaterialCommunityIcons";
-import Projects from "./Projects";
+// import Micons from "material-ui/icons";
 
+import Carousel from 'react-material-ui-carousel'
+import { Paper, Button } from '@material-ui/core'
+
+const Projects = [
+  {
+      "name":"Group Project 2 - Super Roster",
+      "img":"../assets/images/Project-02.png",
+      "git":"https://github.com/methom21/Project-2-MT-ZK-JA",
+      "dep":"https://super-roster.herokuapp.com/",
+      "key":"100001"
+  },
+  {
+      "name":"Group Project 1 - PhoenixSky",
+      "img":"../assets/images/Project-01.png",
+      "git":"https://github.com/stongems/PhoenixSky/tree/main",
+      "dep":"https://stongems.github.io/PhoenixSky/",
+      "key":"100002"
+  },
+  {
+      "name":"Workout Tracker",
+      "img":"../assets/images/01-WT.png",
+      "git":"https://github.com/ZacharyWK/20210722-workout-tracker-zk",
+      "dep":"https://workout-tracker-zk.herokuapp.com/",
+      "key":"100003"
+  },
+  {
+      "name":"Budget Tracker",
+      "img":"../assets/images/02-BT.png",
+      "git":"https://github.com/ZacharyWK/20210726-budget-tracker-zk",
+      "dep":"https://budget-zk.herokuapp.com/",
+      "key":"100004"
+  },
+
+]
 
 function PortfolioCard(props) {
   return (
     <Wrapper>
       <Container {...props}>
 
-      <ProjectImage
-          src={}
-      ></ProjectImage>
+      <Carousel>
+            {
+                Projects.map( (item, i) => <div key={i} item={item} /> )
+            }
+      </Carousel>
 
-        <EntypoIcon
-          name="chevron-small-left"
-          style={{
-            color: "rgba(255,255,255,1)",
-            fontSize: 140,
-            position: "absolute",
-            // width: 140,
-            // height: 154
-            bottom: 0,
-            left: 0,
-          }}
-        ></EntypoIcon>
-
-        <ProjectTitle>Project Title</ProjectTitle>
-
-        <EntypoIcon
-          name="chevron-small-right"
-          style={{
-            color: "rgba(255,255,255,1)",
-            fontSize: 140,
-            position: "absolute",
-            // width: 140,
-            // height: 154,
-            // marginLeft: 75,
-            bottom: 0,
-            right: 0,
-          }}
-        ></EntypoIcon>
-
-        <ProjectOverview>Project Overview</ProjectOverview>
         
-        <MaterialCommunityIconsIcon
+        {/* <MaterialCommunityIconsIcon
           name="github-circle"
           style={{
             top: 0,
@@ -58,8 +64,6 @@ function PortfolioCard(props) {
           }}
         ></MaterialCommunityIconsIcon>
 
-        {/* <GithubRepo>GITHUB REPO</GithubRepo> */}
-
         <MaterialCommunityIconsIcon
           name="desktop-mac"
           style={{
@@ -71,35 +75,26 @@ function PortfolioCard(props) {
             width: 100,
             height: 109,
           }}
-        ></MaterialCommunityIconsIcon>
+        ></MaterialCommunityIconsIcon> */}
 
-        {/* <Deployed>DEPLOYED</Deployed> */}
       </Container>
     </Wrapper>
   );
 }
 
-// const Container = styled.div`
-// display: flex;
-// Left:193px;
-// background-color: rgba(0,0,0,0.9);
-// border-width: 1px;
-// border-color: rgba(255,255,255,1);
-// flex-direction: column;
-// border-style: solid;
-// box-shadow: 3px 3px 30px  1px rgba(0,0,0,1) ;
-// `;
+// function Item(props)
+// {
+//     return (
+//         <Paper>
+//             <h2>{props.item.name}</h2>
+//             {/* <p>{props.item.description}</p> */}
 
-function project () {
-
-  for (let i = 0; i < Projects.length; i++) {
-    const element = array[i];
-    
-  }
-  
-}
-
-
+//             <Button className="CheckButton">
+//                 Check it out!
+//             </Button>
+//         </Paper>
+//     )
+// }
 
 const Wrapper = styled.div``;
 
@@ -191,3 +186,4 @@ const Deployed = styled.span`
 
 
 export default PortfolioCard;
+

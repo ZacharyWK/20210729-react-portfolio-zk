@@ -1404,7 +1404,7 @@
   "resolved" "https://registry.npmjs.org/@mapbox/point-geometry/-/point-geometry-0.1.0.tgz"
   "version" "0.1.0"
 
-"@material-ui/core@^3.0.0", "@material-ui/core@^4.2.1":
+"@material-ui/core@^3.0.0", "@material-ui/core@^4.0.0", "@material-ui/core@^4.11.3", "@material-ui/core@^4.2.1":
   "integrity" "sha512-hasPQUFAb9OxKng7UX2+SjUWtVZbnkVJ/jHZWXTivVcU+UzvNIpA9AyRRQvZ8SPV6swP/HD2VzUBzoMEeRR6wg=="
   "resolved" "https://registry.npmjs.org/@material-ui/core/-/core-4.2.1.tgz"
   "version" "4.2.1"
@@ -1425,6 +1425,13 @@
     "prop-types" "^15.7.2"
     "react-transition-group" "^4.0.0"
     "warning" "^4.0.1"
+
+"@material-ui/icons@^4.11.2":
+  "integrity" "sha512-fQNsKX2TxBmqIGJCSi3tGTO/gZ+eJgWmMJkgDiOfyNaunNaxcklJQFaFogYcFl0qFuaEz1qaXYXboa/bUXVSOQ=="
+  "resolved" "https://registry.npmjs.org/@material-ui/icons/-/icons-4.11.2.tgz"
+  "version" "4.11.2"
+  dependencies:
+    "@babel/runtime" "^7.4.4"
 
 "@material-ui/styles@^4.2.0":
   "integrity" "sha512-KNTIZcnj/zprG5LW0Sao7zw+yG3O35pviHzejMdcSGCdWbiO8qzRgOYL8JAxAsWBKOKYwVZxXtHWaB5T2Kvxew=="
@@ -1674,6 +1681,15 @@
   "integrity" "sha512-uTKHDK9STXFHLaKv6IMnwp52fm0hwU+N89w/p9grdUqcFA6WuqDyPhaWopbNyE1k/VhgzmHl8pu1L4wITtmlLw=="
   "resolved" "https://registry.npmjs.org/@types/react/-/react-17.0.15.tgz"
   "version" "17.0.15"
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    "csstype" "^3.0.2"
+
+"@types/react@^16.8.12":
+  "integrity" "sha512-Don0MtsZZ3fjwTJ2BsoqkyOy7e176KplEAKOpr/4XDdzinlyJBn9yfsKn5mcSgn4kh1B22+3tBnzBC1z63ybtQ=="
+  "resolved" "https://registry.npmjs.org/@types/react/-/react-16.14.11.tgz"
+  "version" "16.14.11"
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -2182,6 +2198,13 @@
   "integrity" "sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg=="
   "resolved" "https://registry.npmjs.org/atob/-/atob-2.1.2.tgz"
   "version" "2.1.2"
+
+"auto-bind@^2.1.1":
+  "integrity" "sha512-NUwV1i9D3vxxY1KnfZgSZ716d6ovY7o8LfOwLhGIPFBowIb6Ln6DBW64+jCqPzUznel2hRSkQnYQqvh7/ldw8A=="
+  "resolved" "https://registry.npmjs.org/auto-bind/-/auto-bind-2.1.1.tgz"
+  "version" "2.1.1"
+  dependencies:
+    "@types/react" "^16.8.12"
 
 "autoprefixer@^9.4.9":
   "integrity" "sha512-XrvP4VVHdRBCdX1S3WXVD8+RyG9qeb1D5Sn1DeLiG2xfSpzellk5k54xbUERJ3M5DggQxes39UGOTP8CFrEGbg=="
@@ -8814,7 +8837,7 @@
     "strip-ansi" "5.2.0"
     "text-table" "0.2.0"
 
-"react-dom@^0.14.0 || ^15.0.0 || ^16.0.0", "react-dom@^16.8.0", "react-dom@^16.8.0 || ^17.0.0", "react-dom@^16.8.6", "react-dom@>= 16.3.0", "react-dom@>=16.5.1", "react-dom@>=16.6.0", "react-dom@15.x || 16.x":
+"react-dom@^0.14.0 || ^15.0.0 || ^16.0.0", "react-dom@^16.8.0", "react-dom@^16.8.0 || ^17.0.0", "react-dom@^16.8.6", "react-dom@^17.0.1", "react-dom@>= 16.3.0", "react-dom@>=16.5.1", "react-dom@>=16.6.0", "react-dom@15.x || 16.x":
   "integrity" "sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.13.1.tgz"
   "version" "16.13.1"
@@ -8860,6 +8883,14 @@
   "version" "0.8.11"
   dependencies:
     "prop-types" "15"
+
+"react-material-ui-carousel@^2.2.7":
+  "integrity" "sha512-aO42C4oupmIxmJwYaTWrlWaXvVVspKcpEu/5efZ9slteATEsqqPtNAeVaE40Vimw2hZeIh2e8vpRwjq7fSsLxw=="
+  "resolved" "https://registry.npmjs.org/react-material-ui-carousel/-/react-material-ui-carousel-2.2.7.tgz"
+  "version" "2.2.7"
+  dependencies:
+    "auto-bind" "^2.1.1"
+    "react-swipeable" "^6.1.0"
 
 "react-native-vector-icons@6.6.0":
   "integrity" "sha512-MImKVx8JEvVVBnaShMr7/yTX4Y062JZMupht1T+IEgbqBj4aQeQ1z2SH4VHWKNtWtppk4kz9gYyUiMWqx6tNSw=="
@@ -8975,6 +9006,11 @@
   optionalDependencies:
     "fsevents" "2.0.6"
 
+"react-swipeable@^6.1.0":
+  "integrity" "sha512-vfZtOZNivwd/aI+ZZH1Grx0eQBdbV1UI3pB9p65jbW5guHHdSIPpKsND6XmaiZXP5REOOc9Ckfr36ChswPqwsA=="
+  "resolved" "https://registry.npmjs.org/react-swipeable/-/react-swipeable-6.1.2.tgz"
+  "version" "6.1.2"
+
 "react-timer-mixin@^0.13.4":
   "integrity" "sha512-4+ow23tp/Tv7hBM5Az5/Be/eKKF7DIvJ09voz5LyHGQaqqz9WV8YMs31eFvcYQs7d451LSg7kDJV70XYN/Ug/Q=="
   "resolved" "https://registry.npmjs.org/react-timer-mixin/-/react-timer-mixin-0.13.4.tgz"
@@ -8990,7 +9026,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@^0.14.0 || ^15.0.0 || ^16.0.0", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^16.13.1", "react@^16.8.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.6", "react@>= 16.3.0", "react@>=15", "react@>=16.5.1", "react@>=16.6.0", "react@0.14 || 15 || 16", "react@15.x || 16.x":
+"react@^0.14.0 || ^15.0.0 || ^16.0.0", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^16.13.1", "react@^16.8.0", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^16.8.6", "react@^17.0.1", "react@>= 16.3.0", "react@>=15", "react@>=16.5.1", "react@>=16.6.0", "react@0.14 || 15 || 16", "react@15.x || 16.x":
   "integrity" "sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.13.1.tgz"
   "version" "16.13.1"
