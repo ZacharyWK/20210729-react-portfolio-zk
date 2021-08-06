@@ -39,10 +39,6 @@ opacity: 50%;
   width: 100%;
 }
 
-.projectImage:hover{
-  opacity: 100%;
-}
-
 
 .mySlides {display: none}
 img {vertical-align: middle;}
@@ -78,14 +74,6 @@ img {vertical-align: middle;}
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.next {
-  right: 0;
 }
 
 .text {
@@ -161,6 +149,6 @@ margin: 2%;
   right:0
 }
 
-.prev:hover .dep:hover .git:hover .next:hover{
-  
+.prev:hover, .dep:hover, .git:hover, .next:hover{
+  opacity: 80%
 }
