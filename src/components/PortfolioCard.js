@@ -14,7 +14,7 @@ const PortfolioCard = ({projects}) => {
   };
 
   const prevProject=()=>{
-    setCurrent(current===0 ? length - 1 : - 1)
+    setCurrent(current===0 ? length - 1 : current - 1)
   };
 
 
