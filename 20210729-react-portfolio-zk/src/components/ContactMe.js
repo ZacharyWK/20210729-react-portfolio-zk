@@ -56,8 +56,8 @@ justify-content:center;
 
 const Container = styled.div`
 display: flex;
-border-width: 1px;
-border-color: #CCC;
+// border-width: 1px;
+// border-color: #CCC;
 background-color: rgba(0,0,0,0.9);
 overflow: hidden;
 flex-direction: column;

@@ -8,6 +8,8 @@ import Logo from "./components/LogoBar";
 import PortfolioCard from "./components/PortfolioCard";
 import ContactMe from "./components/ContactMe";
 import About from "./components/About";
+import { ProjectData } from "./components/ProjectData";
+
 
 
 import "./style.css";
@@ -21,7 +23,7 @@ function App() {
       <Nav/>
       
       <Switch>
-        <Route component={ PortfolioCard } exact path='/' />
+        <Route component={ PortfolioCard } exact path='/'><PortfolioCard projects={ProjectData}/></Route>
         <Route component={ ContactMe } exact path='/contact' />
         <Route component={ About } exact path='/About' />
       </Switch>

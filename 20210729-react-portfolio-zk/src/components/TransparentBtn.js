@@ -11,13 +11,11 @@ function TransparentBtn(props) {
 
 const Container = styled.div`
   display: flex;
-  background-color: #212121;
+  background-color: #000;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  min-width: 88px;
-  padding-left: 16px;
-  padding-right: 16px;
+  min-width: 100%;
 `;
 
 
