@@ -17,7 +17,7 @@ Assigned to update my portfolio page and other materials to build toward being e
 ## Design
 ![image](./img/image1.png)
 
-simple black and white color palette used to match portrait photo, page opens onto slideshow that viewer is able to scroll through. site scales to screen size and navigation opens external sites in new tabs.
+Simple black and white color palette used to match portrait photo, page opens onto slideshow that viewer is able to scroll through. site scales to screen size and navigation opens external sites in new tabs.
 
 
 ---

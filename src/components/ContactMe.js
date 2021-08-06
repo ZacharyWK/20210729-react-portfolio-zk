@@ -19,7 +19,7 @@ function ContactMe(props) {
           marginLeft: 10
         }}
       ></FontAwesomeIcon>
-      <EmailText><a href="mailto:Email@email.com">ZACHARY.W.KRAUSE@GMAILL.COM</a></EmailText>
+      <EmailText><a href="mailto:ZACHARY.W.KRAUSE@GMAIL.COM">ZACHARY.W.KRAUSE@GMAIL.COM</a></EmailText>
       <FeatherIcon
         name="phone"
         style={{
