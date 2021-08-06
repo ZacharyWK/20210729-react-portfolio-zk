@@ -65,8 +65,8 @@ simple black and white color palette used to match portrait photo, page opens on
 https://github.com/ZacharyWK/20210729-react-portfolio-zk
 ```
 
-[DEPLOYED](#)
+[DEPLOYED](https://z-k-portfolio.herokuapp.com/)
 ```
-#
+https://z-k-portfolio.herokuapp.com/
 ```
 
