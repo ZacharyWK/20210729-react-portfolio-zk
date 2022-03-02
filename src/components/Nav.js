@@ -17,7 +17,7 @@ function Nav(props) {
             src={require("../assets/images/84305264.jpg")}
           ></ProfileImage>
 
-          <a href="https://drive.google.com/file/d/1m1w7WnorXADJcUWuxbIzSIQO01me6FYO/view?usp=sharing" target="_blank"><TransparentBtn
+          <a href="https://drive.google.com/file/d/18B1CxbMO3FU_WSDj7LUVw7FcvGB8TKjM/view?usp=sharing" target="_blank"><TransparentBtn
             style={{
               height: 69,
               width: 150,
