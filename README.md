@@ -55,7 +55,7 @@ Simple black and white color palette used to match portrait photo, page opens on
 
     GITHUB: <https://github.com/ZacharyWK>
 
-    EMAIL: <ZachKrause@live.com>
+    EMAIL: <Zachaary.w.Krause@gmail.com>
 
 
 ---
@@ -67,6 +67,6 @@ https://github.com/ZacharyWK/20210729-react-portfolio-zk
 
 [DEPLOYED](https://z-k-portfolio.herokuapp.com/)
 ```
-https://z-k-portfolio.herokuapp.com/
+-https://z-k-portfolio.herokuapp.com/-
 ```
 
