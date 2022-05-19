@@ -57,7 +57,7 @@ GITHUB: <https://github.com/ZacharyWK>
 
 LINKED IN: <https://www.linkedin.com/in/zacharywk/>
 
-EMAIL: <Zachaary.w.Krause@gmail.com>
+EMAIL: <Zachary.W.Krause@gmail.com>
 
 
 ---
