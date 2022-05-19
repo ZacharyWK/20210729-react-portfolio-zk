@@ -54,6 +54,8 @@ Simple black and white color palette used to match portrait photo, page opens on
 ### You can contact me at:
 
     GITHUB: <https://github.com/ZacharyWK>
+    
+    LINKED IN: <https://www.linkedin.com/in/zacharywk/>
 
     EMAIL: <Zachaary.w.Krause@gmail.com>
 
